@@ -86,3 +86,14 @@ def obtener_menor_votos(votos):
         i = i + 1
 
     return menor_votos
+
+def limpiar_lista(lista):
+    """
+    Elimina todos los elementos de una lista.
+
+    Returns:
+        List: Vacía la lista original.
+    """
+    while len(lista) > 0:
+        lista.pop()
+    return lista

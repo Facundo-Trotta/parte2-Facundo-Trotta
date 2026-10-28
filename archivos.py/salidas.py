@@ -10,6 +10,7 @@ def mostrar_menu():
     print("[7] Partidos con mas de 1000 votos")
     print("[8] Partidos por encima del promedio")
     print("[9] partido menos votado")
+    print("[10] Cargar votos hardcodeados")
     print("[0] Salir")
 
 # mostrar titulo de loslistados

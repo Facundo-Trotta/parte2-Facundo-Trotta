@@ -1,3 +1,4 @@
+import funciones
 # no aceptar los numeros negativos
 def no_negativo(numero):
     """
@@ -63,3 +64,17 @@ def ingrese_votos ():
         i = i + 1
     return votos
 
+def cargar_votos_hardcodeados(votos):
+    """Reemplaza el contenido de la lista por los votos hardcodeados.
+
+    Returns:
+        list: la misma lista con los datos hardcodeados.
+    """
+    funciones.limpiar_lista(votos)
+
+    votos_partidos = [888,555,60,1850,999,777,1400,180,2500,60]
+
+    i = 0
+    while i < len(votos_partidos):
+        votos.append(votos_partidos[i])
+        i = i + 1

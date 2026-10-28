@@ -199,6 +199,8 @@ def ejecutar_menu():
             mostrar_promedio(votos)
         elif opcion == 9:
             partido_menor(votos)
+        elif opcion == 10:
+            entradas.cargar_votos_hardcodeados(votos)
         
 
 
